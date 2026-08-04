@@ -61,3 +61,6 @@ The design is modularized to reflect the distinct stages of baseband packet gene
        * **`FEC_2_3.v`**: Applies 2/3 rate Forward Error Correction encoding to the header according to the specification for the HV2 packet.
   * **`reg_bank.v`**: Register bank stores the LAP, UAP, other control signals required for Access code, header and payload generation.
   * **`mem.coe`**: Coefficient file initialized as BRAM containing the raw_payload data and the packet once generated completely.
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/1cd09e77-4748-4953-a5be-eec61ce589bc" alt="Figure 6.8: Header format" width="70%">
+  </p>
